@@ -14,7 +14,8 @@
     <nav
       class="navbar navbar-expand-sm navbar-light"
       style="background-color: pink"
-      style="navbar-text-fs5"
+      style="navbar-text"
+      style="fs-5"
     >
       <div class="nav nav-tab">
         <ul class="nav nav-tabs">
@@ -38,29 +39,61 @@
       </div>
     </nav>
     <!-- Section 2; about the Flower shop; I created a header for the page in its own div and centered the text, underlined, and changed the font.  -->
-    <!-- FIXME add a bio about the flower shop -->
-    <div
-      id="main container"
-      class="text-center fs-2 text-decoration-underline mb-5"
-    >
-      <div id="header">
+    <div id="main container" class="container-sm fs-2 mb-5">
+      <div id="header" class="text-decoration-underline text-center">
         <h1>Alyssa's Flowers and Floral Design Shop</h1>
       </div>
-      <div class="container">
-        <p>blahh blahh blahh</p>
+      <div class="container text-center">
+        <p class="fs-5">
+          At Alyssas Flowers and Floral Design shop you will be able to create
+          the flow bouquets of your dreams or any occasion. We take pride in
+          hand crafting all arrangements to you specific specifications.
+        </p>
       </div>
-      <!-- I created a container for images of the flowers being displayed with the margin bottom of 5 -->
-      <div class="container mb-5">
-        <div id="Wedding Flowers">
-          <div class="row">
-            <div class="col-sm">
-              <div class="card 1">
-                <img
-                  src="weddingflowers.jpg"
-                  height="300px"
-                  alt="Wedding Flowers"
-                />
+      <!-- I created a container for images of the flowers being displayed with the margin bottom of 5; I wasnt able to figure out how to make themline up side by side -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="card-1">
+              <img
+                height="300px"
+                width="300px"
+                src="weddingflowers.jpg"
+                alt="Wedding Flowers"
+              />
+              <div class="card body">
+                <h3 class="card title">Wedding Flowers</h3>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-2">
+              <img
+                height="300px"
+                width="300px"
+                src="anniversaryflowers.jpg"
+                alt="Anniversary Flowers"
+              />
+              <div class="card body">
+                <h3 class="card title">Anniversary Flowers</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card-3">
+            <img
+              height="300px"
+              width="300px"
+              src="birthdayflowers.jpg"
+              alt="Birthday Flowers"
+            />
+            <div class="card body">
+              <h3 class="card title">Birthday Flowers</h3>
             </div>
           </div>
         </div>
