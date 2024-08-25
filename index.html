@@ -8,7 +8,63 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
-    <a href="page2.html"></a>
   </head>
-  <body></body>
+  <!--Section 1; I added a light pink background to the body and a navbar that will get smaller with the page and styled the background pink. I created a div to create tabs to select different pages.   -->
+  <body class="bg-danger-subtle">
+    <nav
+      class="navbar navbar-expand-sm navbar-light"
+      style="background-color: pink"
+      style="navbar-text-fs5"
+    >
+      <div class="nav nav-tab">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="Home Page"
+              href="index.html"
+              >Flower Shop</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="Home Page"
+              href="page2.html"
+              >Ordering and Pricing</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Section 2; about the Flower shop; I created a header for the page in its own div and centered the text, underlined, and changed the font.  -->
+    <!-- FIXME add a bio about the flower shop -->
+    <div
+      id="main container"
+      class="text-center fs-2 text-decoration-underline mb-5"
+    >
+      <div id="header">
+        <h1>Alyssa's Flowers and Floral Design Shop</h1>
+      </div>
+      <div class="container">
+        <p>blahh blahh blahh</p>
+      </div>
+      <!-- I created a container for images of the flowers being displayed with the margin bottom of 5 -->
+      <div class="container mb-5">
+        <div id="Wedding Flowers">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card 1">
+                <img
+                  src="weddingflowers.jpg"
+                  height="300px"
+                  alt="Wedding Flowers"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
