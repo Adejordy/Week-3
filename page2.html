@@ -9,7 +9,7 @@
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
   </head>
-  <body class="container">
+  <body class="bg-danger-subtle">
     <nav
       class="navbar navbar-expand-sm navbar-light"
       style="background-color: pink"
@@ -36,5 +36,61 @@
         </ul>
       </div>
     </nav>
+    <!-- I created the table first and them went back to style it with bootstrap; I was able to figure out how to add rows and colums. I added a border and was able to make it a little bit smaller but not as small as I wanted. -->
+    <div class="main container-fluid">
+      <table class="table table-bordered table table-sm">
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Flowers</th>
+          <th scope="col">Pricing Per Flower</th>
+          <th scope="col">Pricing Per Dozen</th>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>Roses</td>
+          <td>$2</td>
+          <td>$24</td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>Daisys</td>
+          <td>$1</td>
+          <td>$12</td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>Lotus</td>
+          <td>$3</td>
+          <td>$36</td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>Jasime</td>
+          <td>$2</td>
+          <td>$24</td>
+        </tr>
+      </table>
+    </div>
+    <!-- I created a form following styling with bootstrap from grid;  -->
+    <div id="form">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Home Address">
+          </div>
+       </div>
+    </div>
   </body>
 </html>
